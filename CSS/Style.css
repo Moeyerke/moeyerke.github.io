@@ -1,0 +1,232 @@
+/* font-family: 'Balsamiq Sans', cursive;
+font-family: 'Indie Flower', cursive; */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/*HOMEPAGE*/
+.homepage{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homepage h1{
+    font-family: 'Balsamiq Sans';
+    font-size: 40px;
+    text-align: center;
+    line-height: 0;
+}
+.homepage h2{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 35px;
+    text-align: center;
+    line-height: 0;
+    padding-bottom: 50px;
+}
+.homepage p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    text-align: center;
+    line-height: 0;
+}
+
+/*SOCIAL CONTAINER */
+.socials a{
+    color: #000;
+}
+.socials{
+    display: flex;
+    font-size: 65px;
+}
+.socials i{
+    color: black;
+    transition: all 100ms ease-in-out;
+    -webkit-transition: all 100ms ease-in-out;
+}
+.socials a{
+    padding: 10px 10px; /*first number is top and bottom second number is left and right */
+}
+.socials a :hover{
+    background: gray;
+    border-radius: 10px;
+}
+/*YOUTUBE LOGO LINK */
+.fa-youtube :hover{ 
+    color: #FF0000;
+    
+}
+/*TWITTER LOGO LINK*/
+.fa-twitter :hover{
+    color: #00acee;
+}
+/*TWITCH LOGO LINK*/
+.fa-twitch :hover{
+    color: #6441a5;
+}
+/*INSTAGRAM LOGO LINK*/
+.fa-instagram :hover{
+    color: #4c68d7;
+}
+/*TIKTOK LOGO LINK*/
+.fa-tiktok :hover{
+    color: #ff0050;
+}
+
+/*CONTAINER MORE INFO ARROW ON THE BOTTOM */
+#moreinfo{
+    position:absolute;
+    bottom: 5%;
+
+    left: 50%;
+    margin-left: -25px; /*25px is half of the button's width*/
+    text-align: center;
+}
+#moreinfo a{
+    color: black;
+}
+.fa-angle-double-down{
+    font-size: 50px;
+}
+.fa-angle-double-down :hover{
+    color: gray;
+}
+
+
+/*About me section*/
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  #aboutMe{
+      margin-bottom: 450px;
+  }
+  
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 400px;/* Should be removed. Only for demonstration */
+  }
+  
+  .left, .right {
+    width: 37.5%;
+  }
+
+  .left h2{
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+      font-size: 30px;
+  }
+  .left p{
+      text-align: center;
+      padding: 0px 50px;
+      font-family: 'Balsamiq Sans', cursive;
+      font-size: 20px;
+  }
+
+
+
+
+.middle{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.picture{
+    width:350px; 
+    height:350px;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px 5px #000;
+}
+
+
+
+/*RIGHT COLUMN*/
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*discord*/
+.discord{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.fa-discord{
+    font-size: 75px;
+}
+
+/*mail*/
+.mail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.fa-envelope{
+    font-size: 75px;
+}
+
+/*linktree*/
+.social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.fa-user-circle{
+    font-size: 75px;
+}
+
+.icon{
+    text-align: left;
+}
+.text{
+    text-align: center;
+    width: 400px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+
+
+
+  /*PORTFOLIO*/
+.portfolio h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 20vh;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+
+
+  /*STREAM*/
+  .title{
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+  }
+  .stream{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

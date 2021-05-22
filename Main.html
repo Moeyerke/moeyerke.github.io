@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffe2f25603.js" crossorigin="anonymous"></script>
+    <title>Moeyerke</title>
+    <link href="CSS/Style.css" type="text/css" rel="stylesheet">
+
+</head>
+<!-- COMMANDS/REVIEWS -->
+
+<body>
+    <!--HOMEPAGE-->
+    <section class="homepage">
+        <h1>WELCOME!</h1>
+        <P id="middle">My name is Keoni, but I go by the name of</P>
+        <h2>Moeyerke</h2>
+
+        <div class="socials">
+            <a href="https://www.youtube.com/channel/UCKJCBM30PTpMZduknl_lLsw">
+                <i class="fab fa-youtube"></i>
+            </a>
+
+            <a href="https://twitter.com/Moeyerke">
+                <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="https://www.twitch.tv/moeyerke">
+                <i class="fab fa-twitch"></i>
+            </a>
+
+            <a href="https://www.instagram.com/moeyerke/">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://www.tiktok.com/@moeyerke">
+                <i class="fab fa-tiktok"></i>
+            </a>
+        </div>
+
+        <div id="moreinfo">
+            <p>More info</p>
+            <a href="#aboutMe">
+                <i class="fas fa-angle-double-down"></i>
+            </a>
+        </div>
+    </section>
+    <!--ABOUT ME-->
+    <section id="aboutMe">
+        <div class="row">
+            <div class="column left">
+                <h2>ABOUT ME</h2>
+                <p>I am a social person coming from a job in the tourism sector as of now I am employed in the
+                    petroleum. I started streaming March 2020 with a lot of gaming.
+                    I changed my streaming purpose into educational material. made a switch of subjects inside streaming
+                    around April 2021 where I now stream educational subjects such as:
+                    Science, technology & art.</p>
+                <p> love my passion because it allows to bring people who live far away, closer together by connecting
+                    them throughout a chat.
+                    This allows them to talk with each other whilst also being able to have a conversation with me. I
+                    think that this is the most beautiful and driving part of being a streamer.</p>
+            </div>
+            <div class="column middle">
+                <img class="picture" src="PICUTRES/Profile picture.png" alt="Picture of me">
+            </div>
+            <div class="column right">
+                <!--DISCORD SERVER-->
+                <div class="discord">
+
+                    <div class="icon">
+                        <i class="fab fa-discord"></i>
+                    </div>
+
+                    <div class="text">
+                        <p>Hang out with me and the community:</p>
+                        <a href="https://www.discord.gg/UY4XYSsgMb">
+                            <p>https://www.discord.gg/UY4XYSsgMb</p>
+                        </a>
+                    </div>
+
+                </div>
+
+                <!--Busniness mail/contact mail-->
+
+                <div class="mail">
+                    <div class="icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="text">
+                        <p>For business inquiries:</p>
+                        <p><a href="mailto:moeyerketwitch@gmail.com">moeyerketwitch@gmail.com</a></p>
+                    </div>
+
+                </div>
+
+                <!--Social linktree-->
+
+                <div class="social">
+
+                    <div class="icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+
+                    <div class="text">
+                        <p>Click the link below for all my socials</p>
+                        <a href="https://linktr.ee/moeyerke">
+                            <p>https://linktr.ee/moeyerke</p>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <h1>COMING SOON!</h1>
+    </section>
+
+    <section class="stream">
+        <h1 class="title">WATCH ME LIVE HERE</h1>
+    </section>
+
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+    <!-- Create a Twitch.Player object. This will render within the placeholder div -->
+    <script type="text/javascript">
+        new Twitch.Player("twitch-embed", {
+            channel: "moeyerke"
+        });
+    </script>
+
+</body>
+
+</html>
